@@ -71,13 +71,13 @@ void loop() {
       rgbled_7.setColor(0, 0, 0, 255);
       rgbled_7.show();
       move(3, 80 / 100.0 * 255);
-      delay(500);
+      delay(250);
       move(3, 0);
     } else if (receivedChar == 'r') {
       rgbled_7.setColor(0, 255, 255, 0);
       rgbled_7.show();
       move(4, 80 / 100.0 * 255);
-      delay(500);
+      delay(250);
       move(4, 0);
     }
     delay(200);
